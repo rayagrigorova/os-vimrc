@@ -57,3 +57,6 @@ vnoremap <leader>c :s/^/# /<CR>:noh<CR>
 " Uncomment
 nnoremap <leader>u :s/^# //<CR>:noh<CR>
 vnoremap <leader>u :s/^# //<CR>:noh<CR>
+
+" In case of problems with the CRLF from Windows
+" dos2unix ~/.vimrc
