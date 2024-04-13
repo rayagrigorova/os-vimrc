@@ -45,7 +45,7 @@ nnoremap <leader>! O#!/bin/bash<Esc>j0i
 nnoremap <leader>i oif [[  ]]; then<CR>fi<Esc>O<Esc>k02f a
 
 " A mapping to create a check for argument accuracy
-nnoremap <leader>ch oif [[  ]]; then<CR>fi<Esc>Oecho "HEHEHEHEH"<CR>exit 1<Esc>kk02f a
+nnoremap <leader>h oif [[  ]]; then<CR>fi<Esc>Oecho "HEHEHEHEH" >&2<CR>exit 1<Esc>kk02f a
 
 " A mapping to create a while that reads from a file line by line
 nnoremap <leader>w Idone < <Esc>Oecho "${LINE}"<Esc>Owhile read LINE; do<Esc>j>>k0
